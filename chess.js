@@ -1595,6 +1595,12 @@ var Chess = function(fen) {
       }
 
       return move_history;
+    },
+    get_move_number: function () {
+        return move_number;
+    },
+    get_halfmove_number: function () {
+        return half_moves;
     }
 
   };
